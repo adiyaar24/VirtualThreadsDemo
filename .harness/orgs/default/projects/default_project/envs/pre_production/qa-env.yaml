@@ -1,0 +1,7 @@
+environment:
+  name: QA
+  identifier: TestQA
+  tags: {}
+  type: PreProduction
+  orgIdentifier: default
+  projectIdentifier: default_project
