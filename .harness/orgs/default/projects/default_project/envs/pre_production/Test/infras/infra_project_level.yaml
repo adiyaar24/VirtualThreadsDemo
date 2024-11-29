@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: test1
+  identifier: test1
+  orgIdentifier: default
+  projectIdentifier: default_project
+  environmentRef: Test
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: <+input>
+    namespace: <+input>
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: false
