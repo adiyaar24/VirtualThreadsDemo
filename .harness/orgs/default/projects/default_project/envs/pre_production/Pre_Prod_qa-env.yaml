@@ -1,5 +1,5 @@
 environment:
-  name: QA
+  name: QAUpdatedFromGit
   identifier: TestQA
   tags: {}
   type: PreProduction
